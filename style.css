@@ -31,17 +31,13 @@ nav ul li:first-of-type {
     margin-right: auto;
 }
 
-nav ul li:hover:first-of-type {
-    background-color: none;
-}
-
 header {
     font-family: Connection II;
 }
 
 h1 {
     font-family: Connection II;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 main {
