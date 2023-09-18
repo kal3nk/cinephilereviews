@@ -1,0 +1,83 @@
+.wrapper {
+    margin: 0em 3em 3em 3em;
+}
+body {
+    background-color: whitesmoke;
+    font-family: Connection II;
+    margin-top: -1em;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+    background-color: #252424;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2em;
+}
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav ul li:first-of-type {
+    margin-right: auto;
+}
+
+nav ul li:hover:first-of-type {
+    background-color: none;
+}
+
+header {
+    font-family: Connection II;
+}
+
+h1 {
+    font-family: Connection II;
+    font-size: 40px;
+}
+
+main {
+    font-family: Connection II;
+}
+
+main img {
+    size-adjust: smaller;
+}
+
+h2 a {
+    text-decoration: none;
+    color: blue;
+}
+
+h2 a:visited {
+    color: blue;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: Pixeloid Sans;
+    src: url(fonts/PixeloidSans.ttf);
+}
+
+@font-face {
+    font-family: Connection II;
+    src: url(fonts/ConnectionIi-2wj8.otf);
+}
+
+@font-face {
+    font-family: Game Start;
+    src: url(fonts/Start\ Game.otf);
+}
+
+@font-face {
+    font-family: Vermin;
+    src: url(fonts/VerminVibes1989Regular-m77m.ttf);
+}
