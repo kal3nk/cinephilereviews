@@ -7,7 +7,7 @@ body {
     margin-top: -1em;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     display: flex;
     gap: 3em;
@@ -44,8 +44,12 @@ main {
     font-family: Connection II;
 }
 
-main img {
-    size-adjust: smaller;
+main ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 h2 a {
