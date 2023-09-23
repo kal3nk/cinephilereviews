@@ -58,19 +58,23 @@ main ul {
 
 main ul a {
     text-decoration: none;
-    color: red;
+    color: blue;
 }
 
-h2 a {
+main ul a:hover {
+    color: red
+}
+
+main h2 a {
   text-decoration: none;
   color: blue;
 }
 
-h2 a:visited {
+main h2 a:visited {
   color: blue;
 }
 
-h2 a:hover {
+main h2 a:hover {
   color: red;
 }
 
@@ -141,4 +145,7 @@ footer nav a:hover {
 /*sources
 Image float:
 https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html
+
+Box shadows:
+https://www.w3schools.com/css/css3_shadows_box.asp
 */
