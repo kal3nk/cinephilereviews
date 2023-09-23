@@ -1,83 +1,144 @@
 .wrapper {
-    margin: 0em 3em 3em 3em;
+  margin: 0em 3em 3em 3em;
 }
+
 body {
-    background-color: whitesmoke;
-    font-family: Connection II;
-    margin-top: -1em;
+  background-color: seashell;
+  font-family: Connection II;
+  margin-top: -1em;
+  margin-bottom: -3em;
 }
 
 nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 3em;
+  list-style-type: none;
+  display: flex;
+  gap: 3em;
+  background-color: #252424;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2em;
+}
+
+header nav a {
+  color: yellow;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: red;
+}
+
+header nav ul li:first-of-type {
+  margin-right: auto;
+}
+
+header {
+  font-family: Connection II;
+}
+
+h1 {
+  font-family: Connection II;
+  font-size: 40px;
+}
+
+main {
+  font-family: Connection II;
+}
+
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 3em;
+  font-weight: bolder;
+  /*justify-content: left;*/
+}
+
+main ul a {
+    text-decoration: none;
+    color: red;
+}
+
+h2 a {
+  text-decoration: none;
+  color: blue;
+}
+
+h2 a:visited {
+  color: blue;
+}
+
+h2 a:hover {
+  color: red;
+}
+
+main img {
+    box-shadow: 4px 4px 5px burlywood;
+    float: right;
+    margin: 2em;
+}
+
+footer nav ul {
     background-color: #252424;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 3em;
+}
+
+footer nav ul {
+    color: blue;
+    text-decoration: none;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: flex-end;
     align-items: center;
     padding-right: 2em;
 }
 
-nav a {
-    color: yellow;
-    text-decoration: none;
+footer nav li {
+    font-weight: normal;
+    color: aqua;
 }
 
-nav a:hover {
+footer nav a {
+    text-decoration: none;
+    font-weight: normal;
+    color: aqua;
+}
+
+footer nav a:visited {
+    text-decoration: none;
+    color: aqua
+}
+
+footer nav a:hover {
     color: red;
-}
-
-nav ul li:first-of-type {
-    margin-right: auto;
-}
-
-header {
-    font-family: Connection II;
-}
-
-h1 {
-    font-family: Connection II;
-    font-size: 40px;
-}
-
-main {
-    font-family: Connection II;
-}
-
-main ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3em;
     text-decoration: none;
-    list-style-type: none;
-}
-
-h2 a {
-    text-decoration: none;
-    color: blue;
-}
-
-h2 a:visited {
-    color: blue;
 }
 
 /*Fonts*/
 @font-face {
-    font-family: Pixeloid Sans;
-    src: url(fonts/PixeloidSans.ttf);
+  font-family: Pixeloid Sans;
+  src: url(fonts/PixeloidSans.ttf);
 }
 
 @font-face {
-    font-family: Connection II;
-    src: url(fonts/ConnectionIi-2wj8.otf);
+  font-family: Connection II;
+  src: url(fonts/ConnectionIi-2wj8.otf);
 }
 
 @font-face {
-    font-family: Game Start;
-    src: url(fonts/Start\ Game.otf);
+  font-family: Game Start;
+  src: url(fonts/Start\ Game.otf);
 }
 
 @font-face {
-    font-family: Vermin;
-    src: url(fonts/VerminVibes1989Regular-m77m.ttf);
+  font-family: Vermin;
+  src: url(fonts/VerminVibes1989Regular-m77m.ttf);
 }
+
+/*sources
+Image float:
+https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html
+*/
