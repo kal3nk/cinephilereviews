@@ -1,0 +1,21 @@
+Naam: Seth Verhaart
+Studentnummer:500930132
+Klas: Turquoise
+Schooljaar: 2023
+
+LINK NAAR LIVE WEBSITE:
+https://kal3nk.github.io/internetstandaarden/index.html
+
+Bronvermelding:
+Code:
+1. Coyier, C. (2022). A complete guide to Flexbox | CSS-Tricks. CSS-Tricks. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+2. CSS Box shadow. (z.d.). https://www.w3schools.com/css/css3_shadows_box.asp
+
+Afbeeldingen:
+1. Riddick Art, (2021). The Spine of Night Poster. https://riddickart.com/2021/11/01/the-spine-of-night-artwork/
+2. Change the Thought, (z.d.). Se7en Poster. https://changethethought.us/portfolio/se7en-poster/ 
+3. Walijewski Art, (2020). And Then We Danced Poster. https://posterspy.com/posters/and-than-we-danced/
+
+Fonts:
+1. Bilqis Studio, (December 15, 2021). Start Game. https://www.dafont.com/start-game.font
+2. KineticPlasma Fonts, (January 23, 2019). Connection II. https://www.dafont.com/connection-ii.font 
